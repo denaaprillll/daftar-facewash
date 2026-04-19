@@ -4,7 +4,7 @@ Aplikasi ini merupakan sistem CRUD (Create, Read, Update, Delete) sederhana yang
 Project ini dibuat untuk latihan dasar pengembangan backend dengan Laravel.
 
 # Fitur yang tersedia meliputi:
-Menampilkan data
-Menambah data
+// Menampilkan data
+// Menambah data
 Mengedit data
 Menghapus data
