@@ -3,7 +3,7 @@
 ## 📌 Deskripsi
 Aplikasi ini merupakan sistem CRUD (Create, Read, Update, Delete) sederhana yang dibangun menggunakan framework Laravel, PHP, dan MySQL. Aplikasi ini digunakan untuk mengelola data produk seperti menambah, menampilkan, mengubah, dan menghapus data secara terstruktur.
 Project ini dibuat untuk latihan dasar pengembangan backend dengan Laravel.
-
+    ---
 ## 🎯 Tujuan Proyek
 Proyek ini bertujuan untuk:
     - Memahami konsep dasar CRUD pada aplikasi web
@@ -11,7 +11,7 @@ Proyek ini bertujuan untuk:
     - Memahami konsep MVC (Model, View, Controller)
     - Mengelola database menggunakan MySQL
     - Melatih pembuatan aplikasi web sederhana
-
+    ---
 ## 🚀 Fitur yang tersedia meliputi:
 1. Menampilkan data produk
 2. Menambah data produk
@@ -90,7 +90,7 @@ Akses: http://127.0.0.1:8000/products
     - Pilih: Public
     - Create repository
 5. Hubungkan ke GitHub
-git remote add origin https://github.com/denaaprillll/daftar-facewash.git
+* git remote add origin https://github.com/denaaprillll/daftar-facewash.git
 6. Push ke GitHub
     - git branch -M main
     - git push -u origin main
