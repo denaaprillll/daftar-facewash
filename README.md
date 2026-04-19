@@ -6,11 +6,11 @@ Project ini dibuat untuk latihan dasar pengembangan backend dengan Laravel.
 
 ## 🎯 Tujuan Proyek
 Proyek ini bertujuan untuk:
-    - Memahami konsep dasar CRUD pada aplikasi web
-    - Mempelajari framework Laravel
-    - Memahami konsep MVC (Model, View, Controller)
-    - Mengelola database menggunakan MySQL
-    - Melatih pembuatan aplikasi web sederhana
+        - Memahami konsep dasar CRUD pada aplikasi web
+        - Mempelajari framework Laravel
+        - Memahami konsep MVC (Model, View, Controller)
+        - Mengelola database menggunakan MySQL
+        - Melatih pembuatan aplikasi web sederhana
 
 ## 🚀 Fitur yang tersedia meliputi:
 1. Menampilkan data produk
