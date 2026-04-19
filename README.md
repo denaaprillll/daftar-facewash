@@ -49,6 +49,7 @@ Pastikan sudah install:
 3. Jalankan Laravel
     - php artisan serve
     - Buka di browser: http://127.0.0.1:8000
+___
 #### Setup Database
 1. Buka phpMyAdmin
 2. Buat database, misalnya: daftar_facewash
@@ -79,7 +80,7 @@ Folder: resources/views/products/
 9. Jalankan Project
     - php artisan serve
 Akses: http://127.0.0.1:8000/products
-
+___
 ## 🚀 Upload ke GitHub
 1. Inisialisasi Git: git init
 2. Tambahkan file: git add .
@@ -94,15 +95,16 @@ Akses: http://127.0.0.1:8000/products
 6. Push ke GitHub
     - git branch -M main
     - git push -u origin main
-
+___
 ### 🔄 Update ke depannya
 Setiap ada perubahan:
     - git add .
     - git commit -m "update project"
     - git push
-
+___
 ### 🎯 Hasil Akhir
 - Project Laravel berjalan ✅
 - CRUD berfungsi ✅
 - Repository GitHub aktif ✅
+___
 #### Dena April (240180131)
