@@ -1,4 +1,5 @@
 # CRUD Daftar Produk Face Wash
+---
 ## 📌 Deskripsi
 Aplikasi ini merupakan sistem CRUD (Create, Read, Update, Delete) sederhana yang dibangun menggunakan framework Laravel, PHP, dan MySQL. Aplikasi ini digunakan untuk mengelola data produk seperti menambah, menampilkan, mengubah, dan menghapus data secara terstruktur.
 Project ini dibuat untuk latihan dasar pengembangan backend dengan Laravel.
@@ -42,13 +43,12 @@ Pastikan sudah install:
     - PHP
     - Composer
     - XAMPP
-Lalu jalankan:
-composer create-project laravel/laravel daftar-facewash
+- Lalu jalankan: composer create-project laravel/laravel daftar-facewash
 2. Masuk ke folder project
     - cd daftar-facewash
 3. Jalankan Laravel
     - php artisan serve
-  Buka di browser: http://127.0.0.1:8000
+    - Buka di browser: http://127.0.0.1:8000
 #### Setup Database
 1. Buka phpMyAdmin
 2. Buat database, misalnya: daftar_facewash
@@ -94,7 +94,7 @@ git remote add origin https://github.com/denaaprillll/daftar-facewash.git
 6. Push ke GitHub
     - git branch -M main
     - git push -u origin main
----
+
 ### 🔄 Update ke depannya
 Setiap ada perubahan:
     - git add .
