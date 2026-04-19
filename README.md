@@ -3,7 +3,7 @@
 ## 📌 Deskripsi
 Aplikasi ini merupakan sistem CRUD (Create, Read, Update, Delete) sederhana yang dibangun menggunakan framework Laravel, PHP, dan MySQL. Aplikasi ini digunakan untuk mengelola data produk seperti menambah, menampilkan, mengubah, dan menghapus data secara terstruktur.
 Project ini dibuat untuk latihan dasar pengembangan backend dengan Laravel.
----
+
 ## 🎯 Tujuan Proyek
 Proyek ini bertujuan untuk:
     - Memahami konsep dasar CRUD pada aplikasi web
@@ -11,7 +11,7 @@ Proyek ini bertujuan untuk:
     - Memahami konsep MVC (Model, View, Controller)
     - Mengelola database menggunakan MySQL
     - Melatih pembuatan aplikasi web sederhana
-    ---
+
 ## 🚀 Fitur yang tersedia meliputi:
 1. Menampilkan data produk
 2. Menambah data produk
@@ -36,7 +36,7 @@ resources/views/products/
  ├── create.blade.php
  └── edit.blade.php
 routes/web.php
-
+___
 ## ⚙️ Proses Instalasi & Setup Project
 1. Install Laravel
 Pastikan sudah install:
