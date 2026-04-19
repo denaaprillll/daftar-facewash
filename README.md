@@ -72,7 +72,7 @@ Tambahkan:
     - Route::resource('products', ProductController::class);
 8. Buat tampilan (Blade)
 Folder: resources/views/products/
-File:
+* File:
     - index.blade.php
     - create.blade.php
     - edit.blade.php
