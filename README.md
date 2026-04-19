@@ -30,11 +30,77 @@ app/
  └── Http/Controllers/ProductController.php
 app/
  └── Models/Product.php
-
 resources/views/products/
  ├── index.blade.php
  ├── create.blade.php
  └── edit.blade.php
-
 routes/web.php
-##
+
+## ⚙️ Proses Instalasi & Setup Project
+1. Install Laravel
+Pastikan sudah install:
+- PHP
+- Composer
+- XAMPP
+Lalu jalankan:
+composer create-project laravel/laravel daftar-facewash
+2. Masuk ke folder project
+  cd daftar-facewash
+3. Jalankan Laravel
+  php artisan serve
+  Buka di browser: http://127.0.0.1:8000
+4. Setup Database
+1. Buka phpMyAdmin
+2. Buat database, misalnya: daftar_facewash
+3. Atur di file .env:
+-DB_DATABASE=daftar_facewash
+-DB_USERNAME=root
+-DB_PASSWORD=
+5. Jalankan Migration
+   - php artisan migrate
+6. 6. Membuat CRUD (Produk)
+- Buat Model + Migration + Controller : php artisan make:model Product -mcr
+- Edit migration (database) :
+-$table->string('nama_produk');
+-$table->string('jenis');
+-$table->integer('harga');
+-$table->text('keterangan');
+Lalu jalankan: php artisan migrate
+7. Buat Routing
+- Edit file: routes/web.php
+Tambahkan:
+Route::resource('products', ProductController::class);
+8. Buat tampilan (Blade)
+Folder: resources/views/products/
+File:
+-index.blade.php
+-create.blade.php
+-edit.blade.php
+9. Jalankan Project
+php artisan serve
+Akses: http://127.0.0.1:8000/products
+
+## 🚀 Upload ke GitHub
+1. Inisialisasi Git: git init
+2. Tambahkan file: git add .
+3. Commit : git commit -m "first commit"
+4. Buat repository di GitHub
+-Klik New Repository
+-Nama: daftar-facewash
+-Pilih: Public
+-Create repository
+5. Hubungkan ke GitHub
+git remote add origin https://github.com/denaaprillll/daftar-facewash.git
+6. Push ke GitHub
+-git branch -M main
+-git push -u origin main
+### 🔄 Update ke depannya
+Setiap ada perubahan:
+-git add .
+-git commit -m "update project"
+-git push
+### 🎯 Hasil Akhir
+Project Laravel berjalan ✅
+CRUD berfungsi ✅
+Repository GitHub aktif ✅
+#### Dena April (240180131)
