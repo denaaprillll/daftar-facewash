@@ -44,7 +44,7 @@ Pastikan sudah install:
     - Composer
     - XAMPP
 - Lalu jalankan: composer create-project laravel/laravel daftar-facewash
-2. Masuk ke folder project
+2. Masuk ke folder project 
     - cd daftar-facewash
 3. Jalankan Laravel
     - php artisan serve
@@ -60,7 +60,7 @@ Pastikan sudah install:
    - php artisan migrate
 6. Membuat CRUD (Produk)
     - Buat Model + Migration + Controller : php artisan make:model Product -mcr
-    - Edit migration (database) :
+   * Edit migration (database) :
     - $table->string('nama_produk');
     - $table->string('jenis');
     - $table->integer('harga');
